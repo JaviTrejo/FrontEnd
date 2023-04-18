@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WONDER libros</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Productos</a>
+        <a class="navegacion__enlace" href="nosotros.html">Sobre nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>EL HOBBIT</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/7.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>El Hobbit, escrito por J.R.R. Tolkien, es una novela de fantasía que sigue la historia de Bilbo Bolsón, un hobbit tranquilo y hogareño que es arrastrado a una emocionante aventura por un grupo de enanos y el mago Gandalf.
+
+                    La historia comienza cuando Gandalf visita a Bilbo en su hogar y lo convence para que se una a una expedición para recuperar el tesoro robado de los enanos por el dragón Smaug. Bilbo se une a un grupo de trece enanos liderados por el enano Thorin Escudo de Roble, y juntos emprenden un peligroso viaje a través de las tierras salvajes de la Tierra Media.
+                    
+                    A lo largo del viaje, Bilbo y los enanos se enfrentan a una serie de peligros y desafíos, incluyendo enfrentamientos con trolls, trasgos y arañas gigantes. También se encuentran con el misterioso Gollum y su anillo mágico, que juega un papel importante en la historia posterior de la Tierra Media.
+                    
+                    Finalmente, el grupo llega a la Montaña Solitaria, donde enfrentan al temible dragón Smaug en una emocionante batalla. Después de recuperar el tesoro de los enanos, deben luchar contra la avaricia y la envidia mientras deciden cómo distribuir el tesoro entre ellos.
+                    
+                    En resumen, El Hobbit es una emocionante novela de aventuras que sigue la historia de Bilbo Bolsón mientras se une a un grupo de enanos y el mago Gandalf en una peligrosa misión para recuperar un tesoro robado y enfrentarse al temible dragón Smaug. La novela está llena de personajes memorables, paisajes impresionantes y una trama emocionante que ha cautivado a los lectores de todas las edades durante décadas.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Envio express --</option>
+                        <option>Si</option>
+                        <option>No</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+    
+</body>
+</html>

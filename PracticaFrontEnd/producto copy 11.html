@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WONDER libros</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Productos</a>
+        <a class="navegacion__enlace" href="nosotros.html">Sobre nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>PERCY JACKSON</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/12.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>El libro "Percy Jackson y el ladrón del rayo" de Rick Riordan, es la primera entrega de la serie "Percy Jackson y los dioses del Olimpo". La trama sigue la vida de Percy Jackson, un niño de 12 años que descubre que es un semidiós, hijo de Poseidón, el dios del mar.
+
+                    La historia comienza cuando Percy es expulsado de una escuela y enviado a un campamento especial para semidioses. Allí descubre que es el objetivo de una búsqueda para encontrar el rayo de Zeus, que ha sido robado. Si el rayo no es recuperado pronto, una guerra entre los dioses griegos estallará y el mundo mortal podría ser destruido.
+                    
+                    Percy se une a sus amigos, Annabeth y Grover, para encontrar el rayo y demostrar su inocencia, ya que ha sido acusado del robo. Juntos, viajan por todo Estados Unidos para encontrar al verdadero ladrón y recuperar el rayo.
+                    
+                    La historia está llena de aventuras, criaturas míticas y personajes coloridos de la mitología griega. Además, el libro aborda temas como la amistad, la lealtad y la aceptación de la propia identidad.
+                    
+                    </p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Envio express --</option>
+                        <option>Si</option>
+                        <option>No</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+    
+</body>
+</html>
